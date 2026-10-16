@@ -2,9 +2,11 @@
 
 This README provides a concise summary of OctoAcme's project management processes and links to the full process documents in the docs/ folder.
 
-## Summary of project management processes
+OctoAcme runs projects through a lightweight, iterative lifecycle that begins with Initiation (validate the problem, stakeholders, and success metrics) and progresses through Planning (backlog, estimates, and dependency mapping), Execution & Tracking (team rhythm, PR workflow, CI, and QA), Release & Deployment (pre-release checks, rollout and rollback plans), and Retrospective & Continuous Improvement (action items and follow-up). The approach emphasizes small, testable increments, measurable outcomes, and clear ownership to reduce risk and increase predictability.
 
-OctoAcme runs projects through a lightweight, iterative lifecycle that moves from Initiation (validate problem, stakeholders, and success metrics) to Planning (backlog, estimates, dependencies), Execution & Tracking (team rhythm, PR workflow, CI, QA), Release & Deployment (pre-release checks, rollout, rollback plan), and Retrospective & Continuous Improvement (action items and follow-up). Risk management and stakeholder communication are captured in the Risk Register and weekly status updates. The emphasis is on small, testable increments, clear ownership, and measurable outcomes.
+Roles and responsibilities are defined to make ownership explicit: Project Managers coordinate delivery, schedules, risks, and communications; Product Managers define outcomes, prioritize the backlog, and measure success; Developers implement features and tests; QA validates acceptance criteria; and Stakeholders provide input and approvals. Projects maintain artifacts such as a Project One-pager, roadmap/release plan, risk register, and retrospective notes to keep context and decisions traceable.
+
+Communication is structured through a steady cadence—daily standups for immediate progress and blockers, weekly delivery syncs for broader status and risk review, sprint demos/reviews, and monthly stakeholder updates. Escalation paths (team → PM → Product Lead → Sponsor) and templates for weekly status and incident communication keep messaging consistent. Quality assurance is enforced via CI (unit, integration, and security scans), manual QA where needed, smoke tests for critical flows, and release checklists with rollback plans. Risk registers are actively maintained and action items from retrospectives are tracked in the backlog to close improvement loops.
 
 ## Docs
 
@@ -19,11 +21,4 @@ OctoAcme runs projects through a lightweight, iterative lifecycle that moves fro
 
 ## How to use
 
-Place this README in the repository at docs/README.md. When updating a process doc, update the corresponding link and summary here. Use the 
-"Add Content to Project Management Process Docs" issue template (`.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`) to request additions or changes to process content.
-
-### Acceptance Criteria
-
-- [x] Content aligns with existing process docs
-- [x] Update improves clarity or closes a documented gap
-- [ ] Proposed content has been reviewed with stakeholders (if needed)
+Place this README in the repository at docs/README.md. When updating a process doc, update the corresponding link and summary here. Use the "Add Content to Project Management Process Docs" issue template (`.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`) to request additions or changes to process content.
